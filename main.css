@@ -11,6 +11,10 @@ main {
     align-items: center;
     justify-content: center;
     gap: 5vh;
+}
+
+.button {
+    width: 100px;
     border-radius: 3px;
     cursor: pointer;
     font-family: nyt-franklin, Arial, Helvetica, sans-serif;
@@ -24,8 +28,4 @@ main {
     line-height: 11px;
     padding: 11px 12px 8px;
     text-transform: uppercase;
-}
-
-.button {
-    width: 80px;
 }
