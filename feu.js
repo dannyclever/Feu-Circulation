@@ -9,3 +9,13 @@ const trafficLight = ( event ) => {
 }
 
 const nextIndex = () => colorIndex = colorIndex > 2 ? ++colorIndex : 0;
+
+const changeColor = () => {
+    const colors = ['red', 'yellow', 'green']
+    const color = colors[colorIndex];
+    turnOn[color]();
+    nextIndex();
+}
+
+
+buttons.addEventListener('click', trafficLight);
