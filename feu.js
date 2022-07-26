@@ -17,5 +17,9 @@ const changeColor = () => {
     nextIndex();
 }
 
+const stopAutomatic = () => {
+    clearInterval (intervalId);
+}
+
 
 buttons.addEventListener('click', trafficLight);
